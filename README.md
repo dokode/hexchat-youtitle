@@ -1,4 +1,4 @@
-# YouTubeTitle - HexChat Addon #
+# YouTitle - HexChat Addon #
 
 > Deciphers YouTube URLs read on IRC, getting back the titles to you or, optionally, the whole channel.
 
