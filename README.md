@@ -5,7 +5,7 @@
 Secondary features:
 - Non-blocking HTTP requests.
 - Avoiding useless public printing of title already sent by user with the YouTube URL.
-- Handling HTML entities translation in title.
+- Handling HTML entities in title.
 
 ## Installation ##
 
@@ -18,8 +18,8 @@ Alternatively you can (un)load a script manually through:
 
 The commands:
  
-		/py load youtube_title.py
-		/py unload youtube_title.py
+		/py load youtitle.py
+		/py unload youtitle.py
  
  Or, the hexchat GUI: 
  
