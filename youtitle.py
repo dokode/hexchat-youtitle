@@ -14,6 +14,9 @@
 #  MA 02110-1301, USA.
 #  
 
+# Author: hakim.hexchat 
+# 			[a t] gmail 
+
 # to install: copy to ~/.config/hexchat/addons/ for autoloading
 # to load in hexchat: /py load youtube_title.py
 # to unload: /py unload youtitle.py
