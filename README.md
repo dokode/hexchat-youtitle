@@ -47,7 +47,7 @@ And set the value to yes.
 
 If you don't know HexChat yet, this is an IRC client.
 
-[Click here to download HexChat.](https://hexchat.github.io/downloads.html)
+[Follow this link to download HexChat.](https://hexchat.github.io/downloads.html)
 
 ## Contact ##
 
