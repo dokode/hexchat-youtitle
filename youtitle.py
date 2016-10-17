@@ -18,7 +18,7 @@
 # 			[a t] gmail 
 
 # to install: copy to ~/.config/hexchat/addons/ for autoloading
-# to load in hexchat: /py load youtube_title.py
+# to load in hexchat: /py load youtitle.py
 # to unload: /py unload youtitle.py
 # hexchat API doc: https://hexchat.readthedocs.org/en/2.9.6/script_python.html
 
@@ -43,6 +43,7 @@ SENDING_MSG_PREF = xchat.strip(__module_name__)+".sending_msg"
 # TODO: option to proxify the http requests
 # TODO: command to enable/disable the sending msg option
 # TODO: sending messages in the right ctxt (the one where the url was received)
+# TODO: map for caching pairs of youtube link and title, avoiding two same requests in a row
 
 def msg_containing_word_of_title(msg,title):
 	MIN_WORD_LEN=5
