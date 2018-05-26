@@ -17,7 +17,7 @@
 # Author: hakim.hexchat 
 # 			[a t] gmail 
 
-# to install: copy to ~/.config/hexchat/addons/ for autoloading
+# to install: copy to ~/.config/hexchat/addons/ for auto-loading
 # to load in hexchat: /py load youtitle.py
 # to unload: /py unload youtitle.py
 # hexchat API doc: https://hexchat.readthedocs.org/en/2.9.6/script_python.html
@@ -82,7 +82,7 @@ def process_youtube_urls(msg, nick, dest=None):
 		DEBUG and xchat.prnt("msg: "+xchat.strip(msg))
 		url = m.group(1)
 		DEBUG and xchat.prnt("url: "+url)
-		task = Thread()
+		task = Thread() #TODO: task.daemon = True
 		def task_func():
 			decipher_youtube_url(url,nick,msg,dest)
 		task.run = task_func
